@@ -255,14 +255,21 @@
         unlocked:["Cranky Frank","Diesel"], avatar:"🧑"
       },
       {
-        name:"Manhole Mike", star:"red", standards:"Very Low", region:"Downtown",
+        name:"Manhole Mike", star:"red", standards:"Trash", region:"Docks",
         spending:[300,600], orders:[1,3], time:"22:00", day:"Mon",
         affinities:{Marijuana:-73, Meth:92, Cocaine:-26},
         properties:["Paranoia","Laxative","Munchies"],
         policeRisk:0, dependence:1,
         unlocked:["Cranky Frank","Anna Chesterfield"], avatar:"🧑"
+      },
+      {
+        name:"Kaela Thorn", star:"blue", standards:"Moderate", region:"Docks",
+        spending:[400,800], orders:[1,4], time:"09:30", day:"Sat",
+        affinities:{Marijuana:-37, Meth:64, Cocaine:12},
+        properties:["Jennerising","Refreshing","Foggy"],
+        policeRisk:20, dependence:1,
+        unlocked:["Lisa Gardener","Anna Chesterfield"], avatar:"🧑"
       }
-
     ];
 
     const starClass = s=>({Trash:"red", Low:"green", Moderate:"blue", High:"purple", Extreme:"gold"}[s]||"blue");
